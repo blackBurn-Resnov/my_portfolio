@@ -1,0 +1,29 @@
+body {
+    background-color: #ecfcff;
+}
+
+hr {
+    border-style: none;
+    border-top: dotted;
+    border-width: 5px;
+    border-color: grey;
+    width: 5%
+}
+
+img {
+    height: 100px;
+    width: 100px;
+}
+
+h1 {
+    color: #66BFBF;
+    font-family: cursive;
+    font-weight: bolder;
+}
+
+h2, h3, h4 {
+    color: #66BFBF;
+    font-style: italic;
+    font-family: monospace;
+    font-size: x-large;
+}
