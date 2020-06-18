@@ -1,33 +1,47 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-        <head>
-                <meta charset="utf-8">
-                <title>Contact Info</title>
-                <link rel="stylesheet" href="css/styles.css">
-        </head>
-        <body>
-                <h2><strong>Contact Information:</strong></h2>
-                <ul>
-                        <li>Phone: 9080876578</li>
-                        <li>Address:</li>
-                        <li>Country:</li>
-                        <li>Email:</li>
-                </ul>
-                <br>
-                <form action="mailto:shivaadith@gmail.com" method="post" enctype="text/plain">
-                  <label for="name">Enter your Name:</label>
-                  <input type="text" name="Name" required minlength="4" maxlength="10">
-                  <input type="submit" value="Submit Name"><br><br>
-                  <label for="email">Enter your email ID:</label>
-                  <input type="email" name="Email"><br><br>
-                  <label for="date">Select the date:</label>
-                  <input type="date" name="Date" value="1995-10-19"><br><br>
-                  <label for="message">Enter your message below:</label><br>
-                  <textarea name="message" rows="10" cols="30"></textarea><br>
-                  <input type="submit" name="message">
-                </form>
-                <br>
-                <hr>
-                <a href="index.html">Home page</a>
-        </body>
+
+<head>
+  <meta charset="utf-8">
+  <title>Contact Info</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+  <h2><strong>Contact Information:</strong></h2>
+  <ul>
+    <li>Phone: ##########</li>
+    <li>Address: Chennai</li>
+    <li>Country: India</li>
+    <li>Email: shivaadith@gmail.com</li>
+  </ul>
+  <br>
+  <br>
+  <form action="mailto:shivaadith@gmail.com" method="post" enctype="text/plain">
+    <table class="contact">
+      <tr>
+        <td><label for="name">Enter your Name:</label></td>
+        <td><input type="text" name="Name" required minlength="4" maxlength="10"><br><br></td>
+      </tr>
+      <tr>
+        <td><label for="email">Enter your email ID:</label></td>
+        <td><input type="email" name="Email"><br><br></td>
+      </tr>
+      <tr>
+        <td><label for="date">Select the date:</label></td>
+        <td><input type="date" name="Date"><br><br></td>
+      </tr>
+      <tr>
+        <td><label for="message">Enter your message below:</label><br></td>
+        <td><textarea name="message" rows="10" cols="30"></textarea><br><input type="submit" name="message"></td>
+      </tr>
+    </table>
+  </form>
+  <br>
+    <!-- <input type="submit" value="Submit Name"><br><br> -->
+  <br>
+  <br>
+  <a href="index.html">Home page</a>
+</body>
+
 </html>
