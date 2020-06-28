@@ -1,0 +1,62 @@
+body {
+  background-color: #ecfcff;
+}
+
+hr {
+  border-style: none;
+  border-top: dotted;
+  border-width: 5px;
+  border-color: grey;
+  width: 5%
+}
+
+img {
+  height: 100px;
+  width: 100px;
+}
+
+h1 {
+  color: #66BFBF;
+  font-family: cursive;
+  font-weight: bolder;
+}
+
+h2, h3, h4 {
+  color: #66BFBF;
+  font-style: italic;
+  font-family: monospace;
+  font-size: x-large;
+  text-decoration: underline;
+}
+
+.exp_tbl, .exp_tbl td {
+  border-collapse: collapse;
+  border: 3px solid black;
+}
+
+.exp_tbl th {
+  color: black;
+  background-color: #66BFBF;
+}
+
+.exp_tbl tr:nth-child(odd) {
+  background-color: white;
+}
+
+.exp_tbl {
+  width: 50%;
+
+}
+
+.stage1, .stage2{
+  text-decoration: underline;
+}
+
+.stage2 img {
+  width: 30%;
+  height: 30%;
+}
+
+.contact td {
+  vertical-align: top;
+}

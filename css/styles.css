@@ -1,62 +1,238 @@
+/* INDEX PAGE START */
 body {
-  background-color: #ecfcff;
+  /* This aligns block elements to the center. We can also align text to the centre using margin values in the h1/p etc tags.
+  code is margin: 0 auto 0 auto; or 0 auto; this aligns text centre horizontally*/
+  text-align: center;
+  margin: auto;
+  /* the first one is the main font, if users dont have that font type, the next one is displayed instead.
+  This is called fallback. The last value is the font family which all users will have by default anyway.
+  font-family: "Comic Sans MS", cursive, sans-serif; */
+  /* Font Embedding- the link is given in the head tag in HTML script */
+  /* font-family: 'Julius Sans One', sans-serif; */
 }
 
-hr {
-  border-style: none;
-  border-top: dotted;
-  border-width: 5px;
-  border-color: grey;
-  width: 5%
+a {
+  color: #07689f;
+  text-decoration: none;
 }
 
-img {
-  height: 100px;
-  width: 100px;
+a:hover {
+  color: white;
 }
 
 h1 {
+  font-family: 'Julius Sans One', sans-serif;
+  font-size: 6rem;
+  /* 1em = 16 pixels = 100%. We can use either em or percentage to set dynamic size */
+  margin: 50px auto 0 auto;
   color: #66BFBF;
-  font-family: cursive;
+  line-height: 2;
+}
+
+h2, h3 {
+  font-family: 'Julius Sans One', sans-serif;
+  color: #11999E;
   font-weight: bolder;
+  padding-bottom: 10px;
 }
 
-h2, h3, h4 {
-  color: #66BFBF;
-  font-style: italic;
-  font-family: monospace;
-  font-size: x-large;
-  text-decoration: underline;
+hr {
+  /* border-style: none;
+    border-top: dotted 6px;
+    border-width: 10px; */
+  border-style: dotted;
+  border-width: 10px;
+  border-color: #EAF6F6;
+  border-bottom: none;
+  width: 5%;
+  margin: 100px auto;
 }
 
-.exp_tbl, .exp_tbl td {
-  border-collapse: collapse;
-  border: 3px solid black;
+p {
+  font-size: 1.5rem;
+  margin-top: 10px;
+  ;
+  font-family: 'Josefin Slab', serif;
+  line-height: 2;
 }
 
-.exp_tbl th {
-  color: black;
+footer {
+  margin-top: 0;
+  font-size: 0.5rem;
+  font-family: 'Shadows Into Light Two', cursive;
   background-color: #66BFBF;
 }
 
-.exp_tbl tr:nth-child(odd) {
-  background-color: white;
+.title {
+  font-family: 'Julius Sans One', sans-serif;
+  font-weight: normal;
+  font-size: 2em;
+  color: #66BFBF;
 }
 
-.exp_tbl {
-  width: 50%;
-
+.topdiv {
+  position: relative;
+  padding-top: 60px;
+  font-family: 'Julius Sans One', sans-serif;
+  margin-bottom: 50px;
+  background-color: #e0fcff;
 }
 
-.stage1, .stage2{
-  text-decoration: underline;
+.middiv {
+  margin: 100px 0;
+  font-family: 'Julius Sans One', sans-serif;
 }
 
-.stage2 img {
+.bottomdiv {
+  padding: 20px 0 0;
+  background-color: #66BFBF;
+  font-family: 'Julius Sans One', sans-serif;
+  font-size: 0.8rem;
+}
+
+/* refers to the Machine highlight in ML Engineer title  */
+.mac {
+  color: #ff5722;
+}
+
+.bottom_cloud {
+  position: absolute;
+  left: 25%;
+}
+
+.top_cloud {
+  position: relative;
+  left: 200px;
+}
+
+/* .mountain-img {
+  margin-left:
+} */
+
+.skills {
+  margin-top: 60px;
+}
+
+.skill-row-tech {
+  margin: 80px auto 150px auto;
+  /* margin: auto; */
+  text-align: left;
+  width: 60%;
+  line-height: 2;
+}
+
+.skill-row-knowledge {
+  margin: 80px auto 80px auto;
+  /* margin-top: 150px; */
+  /* margin: auto; */
+  text-align: left;
+  width: 60%;
+  line-height: 2;
+}
+
+.knowledge-head {
+  width: 200px;
+}
+
+.skills-head {
+  margin: 100px 0;
+  font-size: 2em;
+}
+
+.skillsgif {
+  width: 40%;
+  float: left;
+  margin-bottom: 150px;
+  margin-right: 80px;
+  /* padding-bottom: 40px; */
+}
+
+.tech-skills {
+  margin-top: 0;
+  width: auto;
+}
+
+.neural-img {
   width: 30%;
-  height: 30%;
+  /* margin: auto; */
+  margin-top: 30px;
+  margin-left: 30px;
+  float: right;
+  /* opposite of float is clear  */
 }
 
-.contact td {
-  vertical-align: top;
+.intro-head {
+  margin-top: 60px;
+  font-size: 3rem;
 }
+
+.intro-body {
+  width: 30%;
+  margin: auto;
+}
+
+.contact-head {
+  font-size: 3rem;
+}
+
+.contact-body {
+  width: 40%;
+  /* font-weight: bold; */
+  margin: 40px auto 60px;
+}
+
+.contact-link {
+  color: #11999E;
+}
+
+.contact-link:hover {
+  color: black;
+}
+
+.copyright {
+  color: #EAF6F6;
+  padding: 20px 0;
+  font-size: 0.75rem;
+  margin-bottom: 0;
+}
+
+.footer-link {
+  margin: 10px 20px;
+}
+
+/* .icon {
+    color: #ff7c38;
+} */
+.button {
+  -webkit-border-radius: 0px;
+  -moz-border-radius: 0px;
+  border-radius: 10px;
+  height: 30px;
+  line-height: 30px;
+  color: #07689f;
+  font-family: 'Shadows Into Light Two', cursive;
+  width: 120px;
+  font-size: 15px;
+  font-weight: 100;
+  padding: 10px;
+  background-color: #66BFBF;
+  /* box-shadow: 1px 1px 20px 0px #000000;
+  -webkit-box-shadow: 1px 1px 20px 0px #000000;
+  -moz-box-shadow: 1px 1px 20px 0px #000000; */
+  border: outset #7EFFDB 10px;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+  text-align: center;
+}
+
+.button:hover {
+  background: #076896;
+  border: outset #07689F 10px;
+  -webkit-border-radius: 1px;
+  -moz-border-radius: 1px;
+  border-radius: 10px;
+  text-decoration: none;
+}
+
+/* INDEX PAGE END */

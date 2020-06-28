@@ -1,135 +1,84 @@
-<!-- typing html and hitting enter brings up the template code(boiler plate code) automatically-->
 <!DOCTYPE html>
-
 <html lang="en" dir="ltr">
 
-<head>
-  <meta charset="utf-8">
-  <title> Personal site </title>
+  <head>
+    <meta charset="utf-8">
+    <title>Shiva's website</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="icon" href="images/favicon.ico">
+    <link href="https://fonts.googleapis.com/css2?family=Julius+Sans+One&family=Shadows+Into+Light+Two&family=Josefin+Slab:wght@600&display=swap" rel="stylesheet">
+  </head>
 
-  <link rel="stylesheet" href="css/styles.css">
-</head>
+  <body>
+    <div class="topdiv">
+      <img class="top_cloud" src="images/cloud.png" alt="cloud-image">
+      <h1 class="head">I'm Shiva</h1>
+      <p class="title">I am a <span class="mac">Machine</span>-Learning Engineer</p>
+      <img class="bottom_cloud" src="images/cloud.png" alt="cloud-image">
+      <img class="mountain-img" src="images/ui.png" alt="mountain-image">
+    </div>
+
+    <div class="middiv">
+      <div class="profile">
+        <img src="images/halloween.png" alt="halloween-img">
+        <h2 class="intro-head">Hello.</h2>
+        <p class="intro-body">
+          I'm an amateur Machine Learning engineer/Data Scientist and this is my Portfolio
+        </p>
+      </div>
+      <hr>
+      <div class="skills">
+        <h2 class="skills-head">My Skills.</h2>
+        <div class="skill-row-tech">
+          <img class="skillsgif" src="images/giphy.gif" alt="computers">
+          <div class="tech-skills">
+            <h3>Software packages and Programming</h3>
+            <p>
+              <ul style="list-style-type: none;">
+                <li>Python</li>
+                <li>SQL</li>
+                <li>R Programming</li>
+                <li>AWS</li>
+                <li><em><strong>Web Design - </strong></em>HTML, CSS and JavaScript</li>
+                <li><em><strong>Engineering Design - </strong></em>PTC Creo, SolidWorks</li>
+              </ul>
+            </p>
+          </div>
+        </div>
+        <div class="skill-row-knowledge">
+          <img class="neural-img" src="images/neural.png" alt="aI">
+          <ul style="list-style-type: none;">
+            <h3 class="knowledge-head">Knowledge Base</h3>
+            <p>
+              <li>Machine Learning</li>
+              <li>Data Science</li>
+              <li>Deep Learning - PyTorch, Neural Network Architectures</li>
+              <li>Computer Vision - OpenCV</li>
+            </p>
+          </ul>
+        </div>
+      </div>
+      <hr>
+      <div class="contact-me">
+        <h2 class="contact-head">Get In Touch</h2>
+        <!-- <h3 class="contact-body">Lorem ipsum dolor sit amet, non elit.</h3> -->
+        <p class="contact-body">Hit the Contact Me button to email me directly, or visit my LinkedIn/GitHub profile using the links below!</p>
+        <a class="button" href="mailto:name@email.com">CONTACT ME</a>
+      </div>
+    </div>
 
 
-<body>
-  <!-- This table is only used to allign the image and the bio next to each other instead of the preivous version where the bio was beneath the profile picture. -->
-  <table cellspacing='30'>
-    <tr>
-      <td><img src="resize.png" alt="Profile picture"></td>
-      <td>
-        <h1>Shiva Adith</h1>
-        <p><em><strong>Machine Learning Engineer</strong></em></p>
-      </td>
-    </tr>
-  </table>
+    <div class="bottomdiv">
+      <a class="footer-link" href="https://www.linkedin.com/in/shivaadith-anbarasu/">LinkedIn</a>
+      <a class="footer-link" href="https://github.com/shiva-adith">GitHub</a>
+      <!-- <a class="footer-link" href="https://www.appbrewery.co/">Website</a> -->
+      <p class="copyright">© 2020 Shivaadith Anbarasu.</p>
+      <a href="evolution.html">Evolution of the Page</a>
+    </div>
 
-  <br>
-  <hr>
+  </body>
 
-  <h3><em><strong>Description:</strong></em></h3>
-  <p>I have a strong desire to acquire new skills across various fields and figure out unique ways to implement them in solving problems.
-    I have a great interest in Mathematics, Statistics and applied sciences- programming is a tool that I use to enhance the application
-    of my knowledge in these fields.
-    Research work, obtaining information, and understanding the root of problems is what I excel in. Implementing all this data to solve
-    problems is what I require mentorship with.
-  </p>
-  <hr>
-  <h3><strong><em>Education:</em></strong></h3>
-
-  <ol>
-    <li><a href="http://aplglobalschool.com/">APL Global</a></li>
-    <ul>
-      <li>IG Levels</li>
-      <li>AS & A Levels</li>
-    </ul>
-    <li><a href="https://www.srmist.edu.in/">SRM University</a></li>
-  </ol>
-
-  <hr>
-
-  <h3>Work Experience:</h3>
-  <table class=" exp_tbl" border="3">
-    <thead>
-      <tr>
-        <th><strong>Duration</strong></th>
-        <th><strong>Position</strong></th>
-        <th><strong>Company Name</strong></th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td>2015</td>
-        <td>Automotive Mechanic</td>
-        <td>Sri Krishna Automobile Enterprises</td>
-      </tr>
-      <tr>
-        <td>2017</td>
-        <td>Intern</td>
-        <td>SANCO Trans Ltd</td>
-      </tr>
-      <tr>
-        <td>2018-2020</td>
-        <td>Research Assistant</td>
-        <td>IIT Research Park</td>
-      </tr>
-    </tbody>
-  </table>
-
-  <br>
-  <hr>
-
-  <h3>Skills:</h3>
-  <table cellspacing="10">
-    <tr>
-      <td>
-        <table cellspacing="10">
-          <tbody>
-            <tr>
-              <td>Statistics</td>
-              <td>⭐⭐⭐⭐</td>
-            </tr>
-            <tr>
-              <td>Mathematics</td>
-              <td>⭐⭐⭐</td>
-            </tr>
-          </tbody>
-        </table>
-      </td>
-      <td>
-        <table cellspacing="10">
-          <tbody>
-            <tr>
-              <td>Python</td>
-              <td>⭐⭐⭐</td>
-            </tr>
-            <tr>
-              <td>Machine Learning</td>
-              <td>⭐⭐⭐</td>
-            </tr>
-          </tbody>
-        </table>
-      </td>
-      <td>
-        <table cellspacing="10">
-          <tbody>
-            <tr>
-              <td>HTML</td>
-              <td>⭐</td>
-            </tr>
-            <tr>
-              <td>R Programming</td>
-              <td>⭐</td>
-            </tr>
-          </tbody>
-        </table>
-      </td>
-    </tr>
-  </table>
-
-  <!-- <hr style="border-style:dotted none none;border-width:5px;border-height:0px"> -->
-  <br>
-</body>
-<footer>
-  <a href="hobbies.html">My Hobbies</a> <a href="contact.html">Contact Information</a> <a href="evolution.html">Evolution of the Page</a>
-</footer>
+  <footer class="footer">
+    Icons made by <a href="https://www.flaticon.com/authors/becris" title="Becris" class="icon">Becris</a> from <a href="https://www.flaticon.com/" title="Flaticon" class="icon"> www.flaticon.com</a>
+  </footer>
 </html>
