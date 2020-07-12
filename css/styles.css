@@ -51,15 +51,15 @@ hr {
 p {
   font-size: 1.5rem;
   margin-top: 10px;
-  ;
-  font-family: 'Josefin Slab', serif;
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: 300;
   line-height: 2;
 }
 
 footer {
   margin-top: 0;
   font-size: 0.5rem;
-  font-family: 'Shadows Into Light Two', cursive;
+  font-family: 'Josefin Sans', sans-serif;
   background-color: #66BFBF;
 }
 
@@ -73,6 +73,7 @@ footer {
 .topdiv {
   position: relative;
   padding-top: 60px;
+  padding-bottom: 30px;
   font-family: 'Julius Sans One', sans-serif;
   margin-bottom: 50px;
   background-color: #e0fcff;
@@ -105,9 +106,9 @@ footer {
   left: 200px;
 }
 
-/* .mountain-img {
-  margin-left:
-} */
+.ui-img {
+  padding-top: 1.5rem;
+}
 
 .skills {
   margin-top: 60px;
@@ -198,41 +199,6 @@ footer {
 
 .footer-link {
   margin: 10px 20px;
-}
-
-/* .icon {
-    color: #ff7c38;
-} */
-.button {
-  -webkit-border-radius: 0px;
-  -moz-border-radius: 0px;
-  border-radius: 10px;
-  height: 30px;
-  line-height: 30px;
-  color: #07689f;
-  font-family: 'Shadows Into Light Two', cursive;
-  width: 120px;
-  font-size: 15px;
-  font-weight: 100;
-  padding: 10px;
-  background-color: #66BFBF;
-  /* box-shadow: 1px 1px 20px 0px #000000;
-  -webkit-box-shadow: 1px 1px 20px 0px #000000;
-  -moz-box-shadow: 1px 1px 20px 0px #000000; */
-  border: outset #7EFFDB 10px;
-  text-decoration: none;
-  display: inline-block;
-  cursor: pointer;
-  text-align: center;
-}
-
-.button:hover {
-  background: #076896;
-  border: outset #07689F 10px;
-  -webkit-border-radius: 1px;
-  -moz-border-radius: 1px;
-  border-radius: 10px;
-  text-decoration: none;
 }
 
 /* INDEX PAGE END */
