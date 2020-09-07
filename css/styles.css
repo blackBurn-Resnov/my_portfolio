@@ -112,7 +112,14 @@ footer {
 
 .skills {
   margin-top: 60px;
+  background-color: #e0fcff;
+  padding-top: 5px;
 }
+
+/* #skills-carousel {
+  background-color: #e0fcff;
+  padding-top: 5px;
+} */
 
 .skill-row-tech {
   margin: 80px auto 150px auto;
@@ -123,7 +130,7 @@ footer {
 }
 
 .skill-row-knowledge {
-  margin: 80px auto 80px auto;
+  margin: 80px auto 150px auto;
   /* margin-top: 150px; */
   /* margin: auto; */
   text-align: left;
@@ -136,7 +143,9 @@ footer {
 }
 
 .skills-head {
-  margin: 100px 0;
+  /* margin: 100px 0; */
+  margin-top: 100px;
+  margin-bottom: 20px;
   font-size: 2em;
 }
 

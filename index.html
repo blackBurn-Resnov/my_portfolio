@@ -1,96 +1,113 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
 
-  <head>
-    <meta charset="utf-8">
-    <title>My Portfolio</title>
-    <link rel="icon" href="images/favicon.ico">
+<head>
+  <meta charset="utf-8">
+  <title>My Portfolio</title>
+  <link rel="icon" href="images/favicon.ico">
 
-    <!-- Google Fonts -->
-    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,300;0,400;0,500;0,700;1,300&family=Julius+Sans+One&display=swap" rel="stylesheet">
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,300;0,400;0,500;0,700;1,300&family=Julius+Sans+One&display=swap" rel="stylesheet">
 
 
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
-    <!-- Bootstrap scripts -->
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+  <!-- Bootstrap scripts -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
 
-    <link rel="stylesheet" href="css/styles.css">
-  </head>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
 
-  <body>
-    <div class="topdiv">
-      <img class="top_cloud" src="images/cloud.png" alt="cloud-image">
-      <h1 class="head">I'm Shiva</h1>
-      <p class="title">I am a <span class="mac">Machine</span>-Learning Engineer</p>
-      <img class="bottom_cloud" src="images/cloud.png" alt="cloud-image">
-      <img class="ui-img" src="images/ui.png" alt="ml-image">
+<body>
+  <div class="topdiv">
+    <img class="top_cloud" src="images/cloud.png" alt="cloud-image">
+    <h1 class="head">I'm Shiva</h1>
+    <p class="title">I am a <span class="mac">Machine</span>-Learning Engineer</p>
+    <img class="bottom_cloud" src="images/cloud.png" alt="cloud-image">
+    <img class="ui-img" src="images/ui.png" alt="ml-image">
+  </div>
+
+
+  <div class="middiv">
+    <div class="profile">
+      <img src="images/halloween.png" alt="halloween-img">
+      <h2 class="intro-head">Hello.</h2>
+      <p class="intro-body">
+        I'm an amateur Machine Learning engineer/Data Scientist and this is my Portfolio
+      </p>
     </div>
-
-    <div class="middiv">
-      <div class="profile">
-        <img src="images/halloween.png" alt="halloween-img">
-        <h2 class="intro-head">Hello.</h2>
-        <p class="intro-body">
-          I'm an amateur Machine Learning engineer/Data Scientist and this is my Portfolio
-        </p>
-      </div>
-      <hr>
-      <div class="skills">
-        <h2 class="skills-head">My Skills.</h2>
-        <div class="skill-row-tech">
-          <img class="skillsgif" src="images/giphy.gif" alt="computers">
-          <div class="tech-skills">
-            <h3>Software packages and Programming</h3>
-            <p>
+    <hr>
+    <div class="skills">
+      <h2 class="skills-head">My Skills.</h2>
+      <div id="skills-carousel" class="carousel slide" data-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="skill-row-tech">
+              <img class="skillsgif" src="images/giphy.gif" alt="computers">
+              <div class="tech-skills">
+                <h3>Software packages and Programming</h3>
+                <p>
+                <ul style="list-style-type: none;">
+                  <li>Python</li>
+                  <li>SQL</li>
+                  <li>R Programming</li>
+                  <li>AWS</li>
+                  <li><em><strong>Web Design - </strong></em>HTML, CSS and JavaScript</li>
+                  <li><em><strong>Engineering Design - </strong></em>PTC Creo, SolidWorks</li>
+                </ul>
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="skill-row-knowledge">
+              <img class="neural-img" src="images/neural.png" alt="AI">
               <ul style="list-style-type: none;">
-                <li>Python</li>
-                <li>SQL</li>
-                <li>R Programming</li>
-                <li>AWS</li>
-                <li><em><strong>Web Design - </strong></em>HTML, CSS and JavaScript</li>
-                <li><em><strong>Engineering Design - </strong></em>PTC Creo, SolidWorks</li>
+                <h3 class="knowledge-head">Knowledge Base</h3>
+                <p>
+                  <li>Machine Learning</li>
+                  <li>Data Science</li>
+                  <li>Deep Learning - PyTorch, Neural Network Architectures</li>
+                  <li>Computer Vision - OpenCV</li>
+                </p>
               </ul>
-            </p>
+            </div>
           </div>
         </div>
-        <div class="skill-row-knowledge">
-          <img class="neural-img" src="images/neural.png" alt="aI">
-          <ul style="list-style-type: none;">
-            <h3 class="knowledge-head">Knowledge Base</h3>
-            <p>
-              <li>Machine Learning</li>
-              <li>Data Science</li>
-              <li>Deep Learning - PyTorch, Neural Network Architectures</li>
-              <li>Computer Vision - OpenCV</li>
-            </p>
-          </ul>
-        </div>
-      </div>
-      <hr>
-      <div class="contact-me">
-        <h2 class="contact-head">Get In Touch</h2>
-        <!-- <h3 class="contact-body">Lorem ipsum dolor sit amet, non elit.</h3> -->
-        <p class="contact-body">Hit the Contact Me button to email me directly, or visit my LinkedIn/GitHub profile using the links below!</p>
-        <!-- <button type="button"  class="btn btn-outline-dark btn-lg">CONTACT ME</button> -->
-        <a href="mailto:name@email.com"><button type="button"  class="btn btn-outline-dark btn-lg">CONTACT ME</button></a>
+        <a class="carousel-control-prev" href="#skills-carousel" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#skills-carousel" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
       </div>
     </div>
-
-
-
-    <div class="bottomdiv">
-      <a class="footer-link" href="https://www.linkedin.com/in/shivaadith-anbarasu/">LinkedIn</a>
-      <a class="footer-link" href="https://github.com/shiva-adith">GitHub</a>
-      <!-- <a class="footer-link" href="https://www.appbrewery.co/">Website</a> -->
-      <p class="copyright">© 2020 Shivaadith Anbarasu.</p>
-      <a href="evolution.html">Evolution of the Page</a>
+    <hr>
+    <div class="contact-me">
+      <h2 class="contact-head">Get In Touch</h2>
+      <!-- <h3 class="contact-body">Lorem ipsum dolor sit amet, non elit.</h3> -->
+      <p class="contact-body">Hit the Contact Me button to email me directly, or visit my LinkedIn/GitHub profile using the links below!</p>
+      <!-- <button type="button"  class="btn btn-outline-dark btn-lg">CONTACT ME</button> -->
+      <a href="mailto:name@email.com"><button type="button" class="btn btn-outline-dark btn-lg">CONTACT ME</button></a>
     </div>
+  </div>
 
-  </body>
 
-  <footer class="footer">
-    Icons made by <a href="https://www.flaticon.com/authors/becris" title="Becris" class="icon">Becris</a> from <a href="https://www.flaticon.com/" title="Flaticon" class="icon"> www.flaticon.com</a>
-  </footer>
+  <div class="bottomdiv">
+    <a class="footer-link" href="https://www.linkedin.com/in/shivaadith-anbarasu/">LinkedIn</a>
+    <a class="footer-link" href="https://github.com/shiva-adith">GitHub</a>
+    <!-- <a class="footer-link" href="https://www.appbrewery.co/">Website</a> -->
+    <p class="copyright">© 2020 Shivaadith Anbarasu.</p>
+    <a href="evolution.html">Evolution of the Page</a>
+  </div>
+
+</body>
+
+<footer class="footer">
+  Icons made by <a href="https://www.flaticon.com/authors/becris" title="Becris" class="icon">Becris</a> from <a href="https://www.flaticon.com/" title="Flaticon" class="icon"> www.flaticon.com</a>
+</footer>
+
 </html>
