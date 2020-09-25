@@ -1,22 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Portfolio Website</title>
-    <style>
-      .boxed {
-        text-align: center;
-        background: lightgrey;
-        color: black;
-        border: 3px solid black;
-        margin: 0px auto;
-        width: 456px;
-        padding: 10px;
-        border-radius: 10px;
-      }
-    </style>
-  </head>
   <body>
     <h1>Portfolio Website</h1>
     <h3><em><strong>Welcome to my Resume!</strong></em></h3>
