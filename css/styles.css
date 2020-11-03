@@ -107,6 +107,7 @@ footer {
 }
 
 .ui-img {
+  
   padding-top: 1.5rem;
 }
 
@@ -140,6 +141,7 @@ footer {
 
 .knowledge-head {
   width: 200px;
+  font-size: 2rem;
 }
 
 .skills-head {
