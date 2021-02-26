@@ -86,7 +86,8 @@ footer {
 
 .bottomdiv {
   padding: 20px 0 0;
-  background-color: #66BFBF;
+  /* background-color: #66BFBF; */
+  background-color: white;
   font-family: 'Julius Sans One', sans-serif;
   font-size: 0.8rem;
 }
@@ -178,6 +179,52 @@ footer {
   /* opposite of float is clear  */
 }
 
+/* Education Section */
+.education {
+  margin-top: 60px;
+  background-color: white;
+  padding-top: 5px;
+}
+
+.university-list {
+  font-size: 1rem;
+  /* line-height: 3; */
+}
+
+.edu-row-university {
+  margin: 80px auto 150px auto;
+  /* margin: auto; */
+  /* text-align: left; */
+  width: 60%;
+  line-height: 3;
+}
+
+.edu-row-certification {
+  margin: 80px auto 150px auto;
+  /* margin-top: 150px; */
+  /* margin: auto; */
+  /* text-align: left; */
+  width: 60%;
+  line-height: 3;
+}
+
+.certification-head {
+  margin-top: 100px;
+  margin-bottom: 20px;
+  /* width: 200px; */
+  font-size: 1.5rem;
+}
+
+.university-head {
+  /* margin: 100px 0; */
+  margin-top: 100px;
+  margin-bottom: 20px;
+  font-size: 1.5rem;
+  /* font-weight: bold; */
+}
+
+/* End of Education Section */
+
 .intro-head {
   margin-top: 60px;
   font-size: 3rem;
@@ -186,6 +233,13 @@ footer {
 .intro-body {
   width: 30%;
   margin: auto;
+}
+
+/* Contact Section */
+.contact-me {
+  margin-top: 60px;
+  background-color: #e0fcff;
+  padding-top: 15px;
 }
 
 .contact-head {
@@ -205,6 +259,7 @@ footer {
 .contact-link:hover {
   color: black;
 }
+/* End of Contact Section */
 
 .copyright {
   color: #EAF6F6;
