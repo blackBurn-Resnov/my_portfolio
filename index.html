@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
+<html lang="en" dir="ltr" xmlns="http://www.w3.org/1999/html">
 
 <head>
   <meta charset="utf-8">
@@ -21,23 +21,23 @@
 
 <body>
   <div class="topdiv">
-    <img class="top_cloud" src="images/cloud.png" alt="cloud-image">
+    <img id="top_cloud" class="top_cloud" src="images/cloud.png" alt="cloud-image">
     <h1 class="head">I'm Shiva</h1>
     <p class="title">I am a <span class="mac">Machine</span>-Learning Engineer</p>
-    <img class="bottom_cloud" src="images/cloud.png" alt="cloud-image">
-    <img class="ui-img" src="images/ui.png" alt="ml-image">
+    <img id="bottom_cloud" class="bottom_cloud" src="images/cloud.png" alt="cloud-image">
+    <img id="ui-img" class="ui-img" src="images/ui.png" alt="ml-image">
   </div>
 
 
   <div class="middiv">
     <div class="profile">
-      <img src="images/halloween.png" alt="halloween-img">
+      <img class="halloween" src="images/halloween.png" alt="halloween-img">
       <h2 class="intro-head">Hello.</h2>
       <p class="intro-body">
         I'm an amateur Machine Learning engineer/Data Scientist and this is my Portfolio
       </p>
     </div>
-    <hr>
+<!--    <hr>-->
     <!-- <div class="jumbotron">
 
     </div> -->
@@ -51,12 +51,12 @@
               <div class="tech-skills">
                 <h3>Tools and Languages</h3>
                 <p>
-                <ul class="tech-skills-list" style="list-style-type: none;">
-                  <li>Python, SQL, R, C++, Java</li>
-                  <li>AWS, Microsoft PowerBI, Tableau</li>
-                  <li><em><strong>Web Design - </strong></em>HTML, CSS and JavaScript</li>
-                  <li><em><strong>Engineering Design - </strong></em>PTC Creo, SolidWorks</li>
-                </ul>
+                  <ul class="tech-skills-list" style="list-style-type: none;">
+                    <li>Python, SQL, R, C++, Java</li>
+                    <li>AWS, Microsoft PowerBI, Tableau</li>
+                    <li><em><strong>Web Design - </strong></em>HTML, CSS and JavaScript</li>
+                    <li><em><strong>Engineering Design - </strong></em>PTC Creo, SolidWorks</li>
+                  </ul>
                 </p>
               </div>
             </div>
@@ -93,6 +93,10 @@
           <div class="col-lg">
             <h2 class="edu-head">My Education</h2>
             <div id="edu-carousel" class="carousel slide" data-ride="carousel">
+<!--              <ul class="carousel-indicators">-->
+<!--                <li class="active" data-target="#edu-carousel" data-slide-to="0"></li>-->
+<!--                <li class="" data-target="#edu-carousel" data-slide-to="1"></li>-->
+<!--              </ul>-->
               <div class="carousel-inner">
                 <div class="carousel-item active">
                   <div class="edu-row-university">
@@ -101,7 +105,7 @@
                       <h3 class="university-head">College Education</h3>
                       <p>
                       <ul class="university-list" style="list-style-type: none;">
-                        <li><em><strong>Bachelor's Degree - </strong></em>Mechanical Engineering, 2017</li>
+                        <li><em><strong>Bachelor's Degree - </strong></em>SRM University, 2017</li>
                         <li><em><strong>Masters Degree - </strong></em>BITS Pilani, 2022</li>
                       </ul>
                       </p>
@@ -141,7 +145,7 @@
       <!-- <h3 class="contact-body">Lorem ipsum dolor sit amet, non elit.</h3> -->
       <p class="contact-body">Hit the Contact Me button to email me directly, or visit my LinkedIn/GitHub profile using the links below!</p>
       <!-- <button type="button"  class="btn btn-outline-dark btn-lg">CONTACT ME</button> -->
-      <a href="mailto:name@email.com"><button type="button" class="btn btn-outline-dark btn-lg">CONTACT ME</button></a>
+      <a class="contact-link" href="mailto:name@email.com"><button type="button" class="btn btn-outline-dark btn-lg contact-button">CONTACT ME</button></a>
     </div>
   </div>
 
